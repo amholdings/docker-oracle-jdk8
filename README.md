@@ -3,7 +3,9 @@ Docker OracleJDK 1.8 (Java SE Development Kit 8u60)
 
 # Build Container:  
 git clone https://github.com/amholdings/docker-oracle-jdk8.git
+
 cd docker-oracle-jdk8
+
 docker build --tag="oracle-jdk8" .
 
 # Run Container: 
